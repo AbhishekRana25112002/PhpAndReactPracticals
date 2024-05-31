@@ -1,0 +1,71 @@
+Steps to use Xampp
+
+1: Files - otherloc computer opt lampp 
+Open terminal
+sudo. /manger....run
+
+2: Open terminal in htdocs
+3: sudo chmod -R 777 AbhishekRana
+4: localhost/AbhishekRana/abhi.php
+
+Command to uninstall LAMPP from Ubuntu
+
+Step 1 -> Go to File->Other Locations->opt->LAMPP
+Step 3-> Open Terminal in the above location
+Step 3-> Type the command 
+sudo ./uninstall
+
+
+Command to give read-write permission to install LAMPP on Ubuntu
+
+Step 1 -> Go to the Downloads folder
+Step 3-> Open Terminal in the above location
+Step 3-> Type the command 
+
+sudo chmod +755 Filename
+
+
+
+Command to install LAMPP on Ubuntu
+
+Step 1 -> Go to the Downloads folder
+Step 3-> Open Terminal in the above location
+Step 3-> Type the command 
+
+sudo ./FileName
+
+
+Command to give read-write permission inside htdocs folder
+
+Step 1 -> Go to File->Other Locations->opt->LAMPP->htdocs
+Step 3-> Open Terminal in the above location
+Step 3-> Type the command 
+
+sudo chmod -R 777 folder_name_where_your_file_exists
+
+
+Giving admin permission to the student account 
+Step 1-> Open with the administrator 
+Step 2-> Open terminal and write
+sudo gpasswd -a student sudo
+
+
+Command to install NodeJs.
+
+Step 1 -> sudo apt install nodejs
+Step 2 -> Check whether create-react-app command is working or not by typing
+	   npx create-react-app Piyush
+Step 3 -> If the command in step 2 works, you will see a project structure in the VSCode after opening the project folder
+Step 4 -> If the command doesn't work, then type the following commands one by one, as this might be because you have an older version of react
+		sudo npm install -g n
+		sudo n latest
+Step 5- > Close terminal/vscode and restart it, then check the version of node by typing
+		node -v
+Step 6 -> Repeat Step 2 and check Step 3.
+
+
+
+Commands to install React Router 
+Step 1-> Open Terminal in VSCode and navigate to the project main directory and type
+	npm install react-router-dom@6
+
